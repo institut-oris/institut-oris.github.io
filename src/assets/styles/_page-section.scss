@@ -1,0 +1,32 @@
+.pageSection {
+  display: block;
+  position: relative;
+
+  margin-bottom: 30px;
+
+  @include bp(md) {
+    margin-bottom: 60px;
+  }
+
+  @include bp(lg) {
+    margin-bottom: 80px;
+  }
+}
+
+.pageSection:last-child {
+  margin-bottom: 0;
+}
+
+.pageSection__title {
+  text-align: center;
+}
+
+.pageSection__titleText {
+  display: inline-block;
+}
+
+.pageSection--grey {
+  background-color: var(--page-section--grey-bg);
+  padding: 90px 0;
+  clip-path: polygon(0 5%, 100% 0%, 100% 100%, 0% 95%);
+}

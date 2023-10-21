@@ -1,0 +1,79 @@
+@import './lib/';
+
+.footer {
+  width: 100%;
+  padding-top: 50px;
+
+  @include bp(sm) {
+    padding-top: 85px;
+  }
+
+  @include bp(md) {
+    padding-top: 109px;
+  }
+}
+
+.footer__logo {
+  width: 100px;
+  height: auto;
+  margin-bottom: 34px;
+
+  @include bp(md) {
+    width: 141px;
+  }
+}
+
+.footer__links {
+  display: block;
+  margin-bottom: 24px;
+}
+
+.footer__links ul {
+  display: block;
+}
+
+.footer__links li {
+  display: block;
+}
+
+.footer__links a {
+  transition: background-color 0.4s;
+  color: var(--footer-nav-color);
+  font-family: var(--font-primary);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 42px; /* 233.333% */
+  text-decoration: none;
+
+  @include bp(md) {
+    font-size: 18px;
+  }
+}
+
+.footer__links a.active,
+.footer__links a:hover {
+  background: linear-gradient(
+    90deg,
+    #ee417e 0%,
+    #f68743 15%,
+    #ffc711 30%,
+    #b7d433 45%,
+    #00a79d 60%,
+    #3bc3de 75%,
+    #3d5997 90%,
+    #943f98 100%
+  );
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.footer__meta {
+  display: flex;
+  color: var(--footer-meta-color);
+  font-family: var(--font-primary);
+  font-size: 12px;
+  line-height: 3.5;
+
+  justify-content: space-between;
+}

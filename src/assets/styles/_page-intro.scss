@@ -1,0 +1,22 @@
+.pageIntro {
+  display: block;
+  position: relative;
+
+  margin-bottom: 53px;
+
+  @include bp(md) {
+    margin-bottom: 100px;
+  }
+
+  @include bp(lg) {
+    margin-bottom: 195px;
+  }
+}
+
+.pageIntro:last-child {
+  margin-bottom: 0;
+}
+
+.pageIntro__title {
+  text-align: center;
+}

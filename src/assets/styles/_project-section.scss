@@ -1,0 +1,45 @@
+.projectSection {
+  display: block;
+  position: relative;
+
+  margin-bottom: 30px;
+
+  @include bp(md) {
+    margin-bottom: 60px;
+  }
+
+  @include bp(lg) {
+    margin-bottom: 80px;
+  }
+}
+
+.projectSection:last-child {
+  margin-bottom: 0;
+}
+
+.projectSection__title {
+}
+
+.projectSection__wrapper {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 20px;
+
+  @include bp(md) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @include bp(lg) {
+    gap: 80px;
+  }
+}
+
+.projectSection__titleText {
+  display: inline-block;
+}
+
+.projectSection:nth-child(2n) .projectIntro__image {
+  @include bp(md) {
+    order: -1;
+  }
+}

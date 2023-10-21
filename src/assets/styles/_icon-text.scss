@@ -1,0 +1,25 @@
+.iconText {
+  display: inline-block;
+  margin-bottom: 30px;
+}
+
+.iconText:after {
+  display: none;
+}
+
+.iconText__container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+}
+
+.iconText svg {
+  width: 34px;
+  height: 28px;
+  flex-shrink: 0;
+}
+
+.iconText a {
+  color: inherit;
+}

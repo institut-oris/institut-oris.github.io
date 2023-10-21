@@ -1,0 +1,44 @@
+@import './lib/';
+
+.card {
+  display: grid;
+  gap: 17px;
+  color: var(--text-color);
+  grid-template-columns: 1fr;
+
+  @include bp(sm) {
+    grid-template-columns: 4fr 4fr;
+  }
+
+  @media (min-width: 640px) {
+    grid-template-columns: 2fr 4fr;
+  }
+
+  @include bp(md) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.card__Link::after {
+  display: none;
+}
+
+.card__Link:hover .card__title {
+  background: var(--gradient);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.card__image {
+  width: 100%;
+  height: auto;
+}
+
+.card__content {
+  max-width: 250px;
+}
+
+.card__title {
+  display: inline-block;
+  margin-bottom: 24px;
+}

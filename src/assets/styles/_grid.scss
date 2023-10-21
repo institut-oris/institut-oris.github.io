@@ -1,0 +1,28 @@
+@import './lib/';
+
+.row {
+  display: block;
+}
+
+.container {
+  display: block;
+  margin: 0 auto;
+  max-width: 1275px + 2 * 80px;
+  padding: 0 20px;
+
+  @include bp(md) {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  @include bp(lg) {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+}
+
+.content {
+  max-width: 970px;
+  margin-left: auto;
+  margin-right: auto;
+}

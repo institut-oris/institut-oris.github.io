@@ -1,0 +1,46 @@
+:root {
+  --bg: #fff;
+  --color: #231f20;
+
+  --gradient: linear-gradient(
+    90deg,
+    #ee417e 0%,
+    #f68743 15%,
+    #ffc711 30%,
+    #b7d433 45%,
+    #00a79d 60%,
+    #3bc3de 75%,
+    #3d5997 90%,
+    #943f98 100%
+  );
+
+  --header-nav-color: #{color.adjust(#231f20, $alpha: -0.35)};
+
+  --title-color: #{color.adjust(#231f20, $alpha: -0.35)};
+  --button-color: #{color.adjust(#231f20, $alpha: -0.35)};
+  --button-shadow: rgba(0, 0, 0, 0.25);
+  --button-bg: #fff;
+
+  --workItem-bg: #fff;
+  --workItem-shadow: #{color.adjust(#000, $alpha: -0.8)};
+
+  --partners-bg: #{color.adjust(#d9d9d9, $alpha: -0.7)};
+
+  --page-section--grey-bg: #{color.adjust(#d9d9d9, $alpha: -0.7)};
+
+  --footer-nav-color: #{color.adjust(#231f20, $alpha: -0.35)};
+  --footer-meta-color: #{color.adjust(#231f20, $alpha: -0.35)};
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background-color: var(--bg);
+  font-family: var(--font-primary);
+  font-size: 14px;
+}

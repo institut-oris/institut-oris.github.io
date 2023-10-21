@@ -1,0 +1,53 @@
+.projectIntro {
+  display: block;
+  position: relative;
+
+  margin-bottom: 30px;
+
+  @include bp(md) {
+    margin-bottom: 60px;
+  }
+
+  @include bp(lg) {
+    margin-bottom: 80px;
+  }
+}
+
+.projectIntro:last-child {
+  margin-bottom: 0;
+}
+
+.projectIntro__wrapper {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 20px;
+
+  @include bp(md) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @include bp(lg) {
+    gap: 80px;
+  }
+}
+
+.projectIntro__title {
+  display: inline-block;
+  margin-bottom: 44px;
+}
+
+.projectIntro__title:after {
+  content: '';
+  display: block;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 8px;
+  background-image: url(../images/underline-1.svg);
+  aspect-ratio: 186/13;
+}
+
+.projectIntro__image {
+  width: 100%;
+  height: auto;
+}

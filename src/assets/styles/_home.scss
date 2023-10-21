@@ -1,0 +1,40 @@
+@import './lib/';
+
+.home__introLine {
+  display: inline-block;
+}
+
+.home__introLine:after {
+  content: '';
+  display: block;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 8px;
+  background-image: url(../images/underline-title.svg);
+  aspect-ratio: 840/14;
+}
+
+.home__projects .pageSection__title {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.home__projects .pageSection__titleText {
+  position: relative;
+}
+
+.home__projects .pageSection__titleText:after {
+  position: absolute;
+  content: '';
+  display: block;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(../images/circle-1.svg);
+  aspect-ratio: 267/104;
+  width: 163.67%;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}

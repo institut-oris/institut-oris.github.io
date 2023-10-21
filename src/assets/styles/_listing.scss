@@ -1,0 +1,31 @@
+@import './lib/';
+
+.listing {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(1, 1fr);
+  margin-bottom: 45px;
+
+  @include bp(md) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.listing--variant2 {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(1, 1fr);
+  margin-bottom: 45px;
+  max-width: 796px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @include bp(md) {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 80px;
+  }
+}
+
+.listing:last-child {
+  margin-bottom: 0;
+}

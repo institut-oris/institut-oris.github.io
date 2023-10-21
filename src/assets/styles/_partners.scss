@@ -1,0 +1,23 @@
+@import './lib/';
+
+.partners {
+  display: grid;
+  gap: 24px;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  align-items: center;
+
+  @include bp(sm) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  @include bp(md) {
+    grid-template-columns: repeat(5, 1fr);
+    gap: 32px;
+  }
+}
+
+.partners img {
+  max-width: 100%;
+  height: auto;
+  mix-blend-mode: darken;
+}
