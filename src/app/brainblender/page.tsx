@@ -1,5 +1,17 @@
 import { PageSection, ProjectIntro, ProjectSection, Main, Button } from '@/components';
 
+import { generateMetadata } from '@/helpers';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = generateMetadata(
+  {
+    title: 'Brainblender',
+    description:
+      'Brainblender je družabna igra, ki spodbuja ustvarjanje skupinskih idej – od nedolžno zabavnih do družbeno odgovornih ali podjetniško pomembnih.',
+  },
+  '/meta/brainblender.png',
+);
+
 const DIY_LINK =
   'https://drive.google.com/drive/folders/1vvsaml_QbWMmz1CpjiDkhte6x_vI-elO?usp=share_link';
 

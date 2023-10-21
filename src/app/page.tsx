@@ -1,5 +1,16 @@
 import { Listing, WorkItem, PageSection, PageIntro, Card, Partners, Main } from '@/components';
 
+import { generateMetadata } from '@/helpers';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = generateMetadata(
+  {
+    description:
+      'Z oblikovalskimi pristopi in inovativnimi metodami dela ustvarjamo boljše produkte in storitve.',
+  },
+  '/meta/home.png',
+);
+
 export default function Home() {
   return (
     <Main>

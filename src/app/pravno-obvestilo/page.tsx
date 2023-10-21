@@ -1,5 +1,17 @@
 import { PageSection, PageIntro, Main } from '@/components';
 
+import { generateMetadata } from '@/helpers';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = generateMetadata(
+  {
+    title: 'Pravno obvestilo',
+    description:
+      'V Inštitutu Oris, zavodu za oblikovanje, raziskovanje, izobraževanje in svetovanje se zavedamo pomembnosti varstva osebnih podatkov.',
+  },
+  '/meta/poslovno-obvestilo.png',
+);
+
 export default function Page() {
   return (
     <Main className='legal'>
