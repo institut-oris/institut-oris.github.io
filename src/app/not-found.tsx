@@ -9,7 +9,7 @@ export default function Page() {
       <PageSection>
         <div className='content'>
           <p>
-            Pojdite nazaj <Link href='/'>domov</Link>
+            Pojdite nazaj <Link href='/'>domov</Link>.
           </p>
         </div>
       </PageSection>
