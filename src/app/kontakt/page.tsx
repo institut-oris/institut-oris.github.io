@@ -92,12 +92,13 @@ export default function Page() {
         <Listing variant={ListingVariant.Two}>
           <Card image='/pika-zvan.png' title='Pika Žvan'>
             Znanje iz oblikovanja mi omogoča uporabiti oblikovalske metode in pristope v
-            izobražavenju ter pri strateškem vodenju podjetij. Zato verjamem, da imamo skupaj moč
+            izobraževanju ter pri strateškem vodenju podjetij. Zato verjamem, da imamo skupaj moč
             so-oblikovanja naše skupne prihodnosti.
           </Card>
           <Card image='/mateja-zan-turk.png' title='Mateja Žan Turk'>
-            Skozi praktično delavnico boste osvojili principe design thinkinga in hkrati rešili
-            trenutne probleme vašega projekta.
+            Znanje iz oblikovanja mi omogoča uporabiti oblikovalske metode in pristope v
+            izobraževanju ter pri strateškem vodenju podjetij. Zato verjamem, da imamo skupaj moč
+            so-oblikovanja naše skupne prihodnosti.
           </Card>
         </Listing>
       </PageSection>
