@@ -96,9 +96,10 @@ export default function Page() {
             so-oblikovanja naše skupne prihodnosti.
           </Card>
           <Card image='/mateja-zan-turk.png' title='Mateja Žan Turk'>
-            Znanje iz oblikovanja mi omogoča uporabiti oblikovalske metode in pristope v
-            izobraževanju ter pri strateškem vodenju podjetij. Zato verjamem, da imamo skupaj moč
-            so-oblikovanja naše skupne prihodnosti.
+            Izkušena trenerka neformalnega izobraževanja, specializirana za strateško načrtovanje in
+            upravljanje s človeškimi viri. Z razvojem in vpeljavo inovativnih metod dela in
+            sodelovanja v podjetjih in organizacijah delamo razliko in skupaj ustvarjamo pozitivne
+            spremembe v skupnosti.
           </Card>
         </Listing>
       </PageSection>
