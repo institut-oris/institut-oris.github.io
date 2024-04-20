@@ -96,10 +96,9 @@ export default function Page() {
             so-oblikovanja naše skupne prihodnosti.
           </Card>
           <Card image='/mateja-zan-turk.png' title='Mateja Žan Turk'>
-            Izkušena trenerka neformalnega izobraževanja, specializirana za strateško načrtovanje in
-            upravljanje s človeškimi viri. Z razvojem in vpeljavo inovativnih metod dela in
-            sodelovanja v podjetjih in organizacijah delamo razliko in skupaj ustvarjamo pozitivne
-            spremembe v skupnosti.
+            Strokovnjakinja, specializirana za strateško upravljanje organizacij in upravljanje 
+            s človeškimi viri. Z razvojem in vpeljavo inovativnih metod dela, usmerjenih 
+            v rezultate, delamo razliko in skupaj ustvarjamo pozitivne spremembe v skupnosti.
           </Card>
         </Listing>
       </PageSection>
