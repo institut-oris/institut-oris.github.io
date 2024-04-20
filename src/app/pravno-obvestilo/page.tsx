@@ -249,6 +249,21 @@ export default function Page() {
             pritožbo pri pristojnem nadzornem organu na naslov: Informacijski pooblaščenec, Zaloška
             59, 1000 Ljubljana ali na: gp.ip@ip-rs.si.
           </p>
+          <h3>Pomembne informacije v zvezi z obdelavo vaših osebnih podatkov</h3>
+          <p>
+            Zavezujemo se, da bomo vse zbrane podatke obdelovali zgolj v okviru naštetih namenov 
+            upravljanja oz. obdelave osebnih podatkov ter v skladu z Zakonom o varstvu osebnih 
+            podatkov ter drugo zadevno področno zakonodajo kot tudi skladno z Uredbo (EU) 2016/679 
+            o varstvu posameznikov pri obdelavi osebnih podatkov (GDPR).
+          </p>
+          <p>
+            Kakršno koli vprašanje, nejasnost ali uveljavljanje vaših pravic s področja osebnih 
+            podatkov naslovite na upravljavca na naslov:
+          </p>
+          <p>
+            Inštitut Oris, zavod za oblikovanje, raziskovanje, izobraževanje in svetovanje, 
+            Cankarjeva cesta 28A, 4260 Bled, oris.institut@gmail.com
+          </p>
         </div>
       </PageSection>
     </Main>
