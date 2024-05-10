@@ -63,9 +63,9 @@ export default function Home() {
             Brainblender je družabna igra, ki spodbuja ustvarjanje skupinskih idej – od nedolžno
             zabavnih do družbeno odgovornih ali podjetniško pomembnih.
           </Card>
-          <Card image='/images/uris.png' title='Uris'>
+          <Card image='/images/uris.png' title='UriS'>
             UriS je spletni komunikator in je namenjen osebam z različnimi težavami pri govoru.
-            Inštitut je pomagal projektu z poslovnim načrtom in promocijskimi materiali.
+            Inštitut je pomagal projektu s poslovnim načrtom in promocijskimi materiali.
           </Card>
           <Card
             image='/images/delavnica-programiranja.png'
